@@ -1,0 +1,343 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #dddddd;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111111;
+}
+
+button,
+input,
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.portfolio-page {
+  width: 1200px;
+  min-height: 900px;
+  margin: 0 auto;
+  display: flex;
+  background: #e9ffe9;
+  box-shadow: 0 4px 12px #999999;
+}
+
+.left-side {
+  width: 125px;
+  background: #a9d5b8;
+  border-right: 7px solid #e9ffe9;
+}
+
+.logo-image {
+  width: 78px;
+  height: 78px;
+  display: block;
+  background: white;
+  border: 1px solid #333333;
+}
+
+.main-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-space {
+  height: 105px;
+  background: #e9ffe9;
+}
+
+.teal-line {
+  height: 8px;
+  margin-right: 12px;
+  background: #008080;
+}
+
+.content-box {
+  width: 850px;
+  min-height: 545px;
+  margin: 14px auto 0 auto;
+  background: white;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
+
+.header {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.header h1 {
+  font-family: Impact, "Arial Narrow", sans-serif;
+  font-size: 43px;
+  font-weight: 400;
+  margin: 0 0 14px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+
+nav button {
+  border: none;
+  background: white;
+  color: #0000ee;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 0;
+}
+
+.signed-in-text {
+  margin: 10px 0 0;
+  font-size: 11px;
+  color: #006060;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #aaaaaa;
+  margin: 10px 0 0 0;
+}
+
+.page-content {
+  padding: 16px 30px 35px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.page-content h2 {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0 0 16px 0;
+}
+
+.page-content h3 {
+  font-size: 15px;
+  margin: 8px 0;
+}
+
+.page-content p {
+  line-height: 1.5;
+}
+
+.home p {
+  max-width: 600px;
+  margin: 12px auto;
+}
+
+.main-button,
+.secondary-button,
+.admin-tabs button,
+.row-buttons button {
+  background: #008080;
+  color: white;
+  border: 1px solid #006060;
+  padding: 7px 12px;
+  cursor: pointer;
+}
+
+.main-button {
+  margin-top: 8px;
+}
+
+.secondary-button {
+  margin-left: 8px;
+  background: #777777;
+  border-color: #555555;
+}
+
+.about-box {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 20px;
+  text-align: left;
+  align-items: start;
+}
+
+.profile {
+  width: 150px;
+  border: 1px solid #cccccc;
+}
+
+.resume-link {
+  display: inline-block;
+  margin-top: 8px;
+  color: #0000ee;
+}
+
+.info-card {
+  width: 88%;
+  margin: 10px auto;
+  border: 1px solid #dddddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  text-align: left;
+}
+
+.project-card {
+  border: 1px solid #dddddd;
+  padding: 10px;
+  background: #fafafa;
+}
+
+.project-card img {
+  width: 100%;
+  height: 95px;
+  object-fit: cover;
+  border: 1px solid #dddddd;
+}
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 18px;
+  text-align: left;
+}
+
+.contact-panel {
+  border: 1px solid #dddddd;
+  padding: 12px;
+  background: #fafafa;
+}
+
+.contact-form,
+.admin-form {
+  display: grid;
+  gap: 7px;
+  text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea,
+.admin-form input,
+.admin-form textarea {
+  width: 100%;
+  border: 1px solid #999999;
+  padding: 7px;
+  font-size: 13px;
+}
+
+.simple-form-box {
+  max-width: 420px;
+  margin: 0 auto;
+  border: 1px solid #dddddd;
+  padding: 18px;
+  background: #fafafa;
+}
+
+.status-text {
+  color: #006060;
+  font-size: 12px;
+}
+
+.error-text {
+  color: #bb0000;
+}
+
+.admin-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.admin-section {
+  text-align: left;
+  border-top: 1px solid #dddddd;
+  padding-top: 12px;
+}
+
+.admin-form {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 14px;
+  padding: 12px;
+  border: 1px solid #dddddd;
+  background: #fafafa;
+}
+
+.admin-form label {
+  display: grid;
+  gap: 4px;
+}
+
+.admin-form label:last-of-type {
+  grid-column: 1 / -1;
+}
+
+.admin-list {
+  margin-top: 16px;
+  display: grid;
+  gap: 8px;
+}
+
+.admin-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border: 1px solid #dddddd;
+  padding: 10px;
+  background: white;
+}
+
+.row-buttons {
+  display: flex;
+  gap: 6px;
+}
+
+.role-badge {
+  background: #e9ffe9;
+  border: 1px solid #a9d5b8;
+  padding: 5px 8px;
+}
+
+.footer {
+  margin-top: auto;
+  padding: 22px 25px;
+  color: #008060;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.footer p {
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .portfolio-page {
+    width: 100%;
+  }
+
+  .left-side {
+    width: 85px;
+  }
+
+  .content-box {
+    width: 92%;
+  }
+
+  .grid,
+  .about-box,
+  .contact-layout,
+  .admin-form {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-form label:last-of-type {
+    grid-column: auto;
+  }
+}

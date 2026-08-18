@@ -1,0 +1,10 @@
+node_modules/
+client/node_modules/
+client/dist/
+dist/
+.env
+*.log
+.DS_Store
+client/cypress/videos/
+client/cypress/screenshots/
+client/coverage/

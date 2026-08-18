@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="300" viewBox="0 0 500 300">
+  <rect width="500" height="300" fill="#ede9fe"/>
+  <rect x="40" y="55" width="420" height="190" fill="white" opacity="0.85" stroke="#555"/>
+  <text x="250" y="140" font-family="Arial" font-size="36" font-weight="bold" text-anchor="middle" fill="#222">Code</text>
+  <text x="250" y="185" font-family="Arial" font-size="20" text-anchor="middle" fill="#555">Programming</text>
+</svg>
