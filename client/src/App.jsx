@@ -129,6 +129,9 @@ function Home({ openPage }) {
         This application uses React on the frontend and Node, Express and MongoDB
         on the backend.
       </p>
+      <p>
+        Assignment 4 CI/CD deployment update completed successfully.
+      </p>
       <button className="main-button" onClick={() => openPage('about')}>
         Go to About Me
       </button>
